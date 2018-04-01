@@ -3,6 +3,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+/**
+ * SQl注入测试
+ */
 public class TestMyBatis002 {
 
 	public static void main(String[] args) {
@@ -11,7 +14,6 @@ public class TestMyBatis002 {
 //			String password = " 644";
 //			String sql = "SELECT id,username FROM user_table WHERE " + "username='" + username + "'AND " + "password='"
 //					+ password + "'";
-
 			 String sql = "SELECT id,name FROM users WHERE name=? AND age=?";
 			System.out.println("sql:" + sql);
 			Class.forName("com.mysql.jdbc.Driver");
