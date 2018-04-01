@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+#GIT代码提交忽略文件配置
+/target
+
+
+
+#idea相关
+/.idea
+*.iml
+
+.idea/*.xml
+.idea/*
+
+#eclipse相关
+/.project
+/.settings
+
+/.idea/compiler.xml
+.idea
+
